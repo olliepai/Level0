@@ -38,12 +38,18 @@ public class ForLoopGauntlet {
 			JOptionPane.showMessageDialog(null, "In " + i + ", I was " + Age + " years old." );
 		}*/
 		
-		for (int i = 0; i < 3; i++) {
-			System.out.println(i);
-			for (i = 0; i < 3; i++) {
-				System.out.println(i);
+		/* for (int i = 0; i < 3; i++) {
+			for (int i2 = 0; i2 < 3; i2++) {
+				System.out.println(i + " " + i2);
 			}
+		} */
+		/* for (int j = 1; j < 9; j+= 3) {
+			System.out.println(j + " " + (j + 1)+ " " + (j + 2) );
+		} */
+		for (int j = 1; j < 100; j += 9) {
+			System.out.println(j + " " + (j + 1) + " " + (j + 2) + " " + (j + 3) + " " + (j + 4) + " " + (j + 5) + " " + (j + 6) + " " + (j + 7) + " " + (j + 8) + " " + (j + 9)); 
 		}
+			
 	}
 
 }
